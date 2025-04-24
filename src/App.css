@@ -1,0 +1,35 @@
+.mySwiper .swiper-slide{
+    display: flex !important;
+}
+.my-slider .slick-slide{
+   
+    margin: 0px 2px;
+}
+.my-slider .slick-next {
+    right: 43px;
+    top: -71px;
+    height: 31px;
+}
+.my-slider .slick-prev {
+    right: 78px !important;
+    top: -77px;
+    left: unset;
+    
+}
+.my-slider .slick-prev:before,.my-slider .slick-next:before {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 29px;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: gainsboro;
+    height: 37px !important;
+    display: flex;
+    width: 33px;
+    border-radius: 46%;
+    justify-content: center;
+    align-items: baseline;
+    
+}
