@@ -8,6 +8,9 @@ import { ModalContextProvider } from './context/ModalContext.jsx'
 import { store } from './reduxStore/store.js'
 import 'remixicon/fonts/remixicon.css'
 import '@fontsource/inter'; // Not recommended for production due to bundle size
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 
 createRoot(document.getElementById('root')).render(
@@ -15,7 +18,7 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <ModalContextProvider>
        <Provider store={store}>
-        <App />
+        <App  />
         </Provider>
       </ModalContextProvider>
     </BrowserRouter>
