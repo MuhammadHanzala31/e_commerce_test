@@ -9,7 +9,7 @@ import Product4 from '../assets/product4.png'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import '../app.css'
+import "../app.css";
 function ProductSlider() {
 
     const settings = {
